@@ -1,0 +1,64 @@
+[
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_entero",
+        "kind": 2,
+        "importPath": "Contador",
+        "description": "Contador",
+        "peekOfCode": "def obtener_entero(mensaje):\n    \"\"\"Solicita un número entero y maneja errores de entrada.\"\"\"\n    while True:\n        try:\n            return int(input(mensaje))\n        except ValueError:\n            print(\"❌ Entrada inválida. Debes ingresar un número entero.\")\ndef seleccionar_categoria():\n    \"\"\"Muestra las categorías y permite seleccionar una.\"\"\"\n    print(\"\\n📂 Categorías disponibles:\")",
+        "detail": "Contador",
+        "documentation": {}
+    },
+    {
+        "label": "seleccionar_categoria",
+        "kind": 2,
+        "importPath": "Contador",
+        "description": "Contador",
+        "peekOfCode": "def seleccionar_categoria():\n    \"\"\"Muestra las categorías y permite seleccionar una.\"\"\"\n    print(\"\\n📂 Categorías disponibles:\")\n    for i, cat in enumerate(t1.keys(), 1):\n        print(f\"{i}. {cat}\")\n    while True:\n        seleccion = obtener_entero(\"\\nElige el número de la categoría: \") - 1\n        if 0 <= seleccion < len(t1):\n            return list(t1.keys())[seleccion]\n        print(\"❌ Opción inválida. Inténtalo de nuevo.\")",
+        "detail": "Contador",
+        "documentation": {}
+    },
+    {
+        "label": "mostrar_datos",
+        "kind": 2,
+        "importPath": "Contador",
+        "description": "Contador",
+        "peekOfCode": "def mostrar_datos():\n    \"\"\"Muestra el diccionario estructurado de forma más legible manteniendo el orden.\"\"\"\n    print(\"\\n📊 **Datos actuales:**\")\n    datos_mostrados = False\n    for categoria, tecnologias in t1.items():\n        if tecnologias:  # Solo muestra categorías con datos\n            print(f\"\\n🔹 {categoria}:\")\n            for tecnologia, cantidad in tecnologias.items():\n                print(f\"   - {tecnologia.capitalize()}: {cantidad}\")\n            datos_mostrados = True",
+        "detail": "Contador",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar_tecnologia",
+        "kind": 2,
+        "importPath": "Contador",
+        "description": "Contador",
+        "peekOfCode": "def eliminar_tecnologia():\n    \"\"\"Permite eliminar una tecnología de una categoría específica.\"\"\"\n    if all(not tecnologias for tecnologias in t1.values()):\n        print(\"❌ No hay datos para eliminar.\")\n        return\n    print(\"\\n📂 **Categorías disponibles:**\")\n    categorias_disponibles = [cat for cat in t1.keys() if t1[cat]]  # Filtra solo las que tienen datos\n    for i, cat in enumerate(categorias_disponibles, 1):\n        print(f\"{i}. {cat}\")\n    cat_index = obtener_entero(\"\\nElige el número de la categoría: \") - 1",
+        "detail": "Contador",
+        "documentation": {}
+    },
+    {
+        "label": "t1",
+        "kind": 5,
+        "importPath": "Contador",
+        "description": "Contador",
+        "peekOfCode": "t1 = OrderedDict({categoria: {} for categoria in [\n    \"Control de Versiones\", \"CI/CD\", \"Cloud Computing\", \"Lenguajes de Programación\",\n    \"Desarrollo de Interfaces\", \"APIs y Servicios Web\", \"Contenedores\",\n    \"Bases de Datos\", \"Visualización de Datos\", \"Seguridad\", \"Testing\", \"Desarrollo Móvil\",\"Big data y procesamiento de datos\"\n]})\n# Diccionario para guardar a qué categoría pertenece cada tecnología\ntech_to_category = {}\ndef obtener_entero(mensaje):\n    \"\"\"Solicita un número entero y maneja errores de entrada.\"\"\"\n    while True:",
+        "detail": "Contador",
+        "documentation": {}
+    },
+    {
+        "label": "tech_to_category",
+        "kind": 5,
+        "importPath": "Contador",
+        "description": "Contador",
+        "peekOfCode": "tech_to_category = {}\ndef obtener_entero(mensaje):\n    \"\"\"Solicita un número entero y maneja errores de entrada.\"\"\"\n    while True:\n        try:\n            return int(input(mensaje))\n        except ValueError:\n            print(\"❌ Entrada inválida. Debes ingresar un número entero.\")\ndef seleccionar_categoria():\n    \"\"\"Muestra las categorías y permite seleccionar una.\"\"\"",
+        "detail": "Contador",
+        "documentation": {}
+    }
+]
