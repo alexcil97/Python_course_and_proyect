@@ -1,0 +1,14 @@
+{
+    // Configuración de depuración recomendada para Python
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Archivo actual (Integrated Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

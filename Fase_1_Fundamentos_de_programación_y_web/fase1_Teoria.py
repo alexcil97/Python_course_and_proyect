@@ -19,6 +19,7 @@
 # 1️⃣2️⃣ ATRIBUTOS Y MÉTODOS MÁGICOS (DUNDER)
 # 1️⃣3️⃣ CONDICIONALES Y TERNARIO
 # 1️⃣4️⃣ BUCLES Y MÉTODOS DE RECORRIDO
+# 1️⃣5️⃣ DIFERENCIAS ENTRE LISTAS, TUPLAS Y DICCIONARIOS
 
 # ==================================================
 # 1️⃣ VARIABLES Y TIPOS
@@ -247,3 +248,28 @@ contador = 0
 while contador < 5:
     print("Contador:", contador)
     contador += 1
+
+# ==================================================
+# 1️⃣5️⃣ DIFERENCIAS ENTRE LISTAS, TUPLAS Y DICCIONARIOS
+# ==================================================
+# | Tipo          | Mutable | Ordenado | Duplicados | Acceso por | Sintaxis        | Ejemplo                          | Uso típico |
+# |----------------|----------|-----------|-------------|-------------|----------------|-----------------------------------|-------------|
+# | **Lista**       | ✅ Sí    | ✅ Sí     | ✅ Sí       | Índice      | [ ]            | [1, 2, 3]                        | Colecciones de datos modificables |
+# | **Tupla**       | ❌ No    | ✅ Sí     | ✅ Sí       | Índice      | ( )            | (1, 2, 3)                        | Datos que no deben cambiar |
+# | **Diccionario** | ✅ Sí    | ✅ Sí (3.7+) | ❌ No     | Clave       | {clave:valor}  | {"nombre":"Ana", "edad":20}      | Asociar claves con valores |
+
+# 🔹 RESUMEN:
+# - Usa **listas** cuando necesites una colección dinámica.
+# - Usa **tuplas** cuando los datos deban ser inmutables o fijos.
+# - Usa **diccionarios** cuando necesites pares clave-valor.
+""" 
+| Tipo        | Ejemplos | Mutable | ¿Se modifica por referencia? |
+| ----------- | -------- | ------- | ---------------------------- |
+| Lista       | `[]`     | Sí      | ✔ Sí                         |
+| Diccionario | `{}`     | Sí      | ✔ Sí                         |
+| Conjunto    | `set()`  | Sí      | ✔ Sí                         |
+| Entero      | `5`      | No      | ❌ No                         |
+| Float       | `3.14`   | No      | ❌ No                         |
+| String      | `"hola"` | No      | ❌ No                         |
+| Tupla       | `(1,2)`  | No      | ❌ No                         |
+ """

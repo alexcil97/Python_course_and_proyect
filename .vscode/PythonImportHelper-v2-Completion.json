@@ -1,0 +1,469 @@
+[
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "saludar",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "def saludar(nombre):\n    return f\"hola {nombre}\"\nmensaje = saludar(\"alex\")\nprint(mensaje)\n# 1️⃣7️⃣ Crea una función que calcule el cuadrado de un número.\n# Escribe tu código aquí 👇\ndef cuadradoNumero(numero):\n    return int(numero) * int(numero)\nresultado = cuadradoNumero(input(\"escribe un numero: \"))\nprint(resultado)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "cuadradoNumero",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "def cuadradoNumero(numero):\n    return int(numero) * int(numero)\nresultado = cuadradoNumero(input(\"escribe un numero: \"))\nprint(resultado)\n# 1️⃣8️⃣ Crea una función que reciba dos números y devuelva su promedio.\n# Escribe tu código aquí 👇\ndef promedio(numero1, numero2):\n    return (int(numero1)+int(numero2))/2\nresultado  = promedio(input(\"escribe el primer numero \"),input(\"escribe el segundo numero \"))\nprint(\"el promedio es: \"+str(resultado))",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "promedio",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "def promedio(numero1, numero2):\n    return (int(numero1)+int(numero2))/2\nresultado  = promedio(input(\"escribe el primer numero \"),input(\"escribe el segundo numero \"))\nprint(\"el promedio es: \"+str(resultado))\n# 1️⃣9️⃣ Crea una función que reciba una lista de números y devuelva su suma total.\n# Escribe tu código aquí 👇\ndef sumaTotal(listaNumeros):\n    sumatoria = 0\n    for numeros in listaNumeros:\n        sumatoria = sumatoria + numeros",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "sumaTotal",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "def sumaTotal(listaNumeros):\n    sumatoria = 0\n    for numeros in listaNumeros:\n        sumatoria = sumatoria + numeros\n    return sumatoria\nsumatoriaTotal = sumaTotal(listaNumeros = [2,3,5,8])\nprint(sumatoriaTotal)\n# ⚠️ TRY / EXCEPT ------------------------------------\n# 2️⃣0️⃣ Pide un número al usuario y usa try/except para evitar errores si escribe texto.\n# Escribe tu código aquí 👇",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "nombre = \"alex\"\nedad = 28\nciudad = \"madrid\"\nprint(f\" mi nombre es {nombre} tengo {edad} años de edad y vivo en {ciudad} \")\n# 2️⃣ Declara dos números y muestra su suma, resta, multiplicación y división.\n# Escribe tu código aquí 👇\nnumero1= int(input(\"escribe un numero: \"))\nnumero2= int(input(\"escribe otro numero: \"))\nprint(numero1+numero2)\nprint(numero1-numero2)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "edad = 28\nciudad = \"madrid\"\nprint(f\" mi nombre es {nombre} tengo {edad} años de edad y vivo en {ciudad} \")\n# 2️⃣ Declara dos números y muestra su suma, resta, multiplicación y división.\n# Escribe tu código aquí 👇\nnumero1= int(input(\"escribe un numero: \"))\nnumero2= int(input(\"escribe otro numero: \"))\nprint(numero1+numero2)\nprint(numero1-numero2)\nprint(numero1*numero2)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "ciudad",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "ciudad = \"madrid\"\nprint(f\" mi nombre es {nombre} tengo {edad} años de edad y vivo en {ciudad} \")\n# 2️⃣ Declara dos números y muestra su suma, resta, multiplicación y división.\n# Escribe tu código aquí 👇\nnumero1= int(input(\"escribe un numero: \"))\nnumero2= int(input(\"escribe otro numero: \"))\nprint(numero1+numero2)\nprint(numero1-numero2)\nprint(numero1*numero2)\nprint(numero1/numero2)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "celsius",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "celsius = float(input(\"escribe la temperatura en celsius: \"))\nfahrenheit =(celsius*9/5)+32\nprint(\"la temperatura en fahrenheit es: \",fahrenheit)\n# ⚡ CONDICIONALES -----------------------------------\nprint(\"⚡ CONDICIONALES -----------------------------------\")\n# 4️⃣ Pide al usuario un número y di si es positivo, negativo o cero.\n# Escribe tu código aquí 👇\nnumero = int(input(\"dame un numero y te digo si es positivo, negatico o cero \"))\nif numero == 0:\n    print(\"el numero es cero\")",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "numero = int(input(\"dame un numero y te digo si es positivo, negatico o cero \"))\nif numero == 0:\n    print(\"el numero es cero\")\nelif numero > 0:\n    print(\"el numero es positivo\")\nelse:\n    print(\"el numero es negativo\")\n# 5️⃣ Pide dos números y muestra cuál es mayor (o si son iguales).\n# Escribe tu código aquí 👇\nnumero1 = int(input(\"escribe el primer numero \"))",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "numero1",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "numero1 = int(input(\"escribe el primer numero \"))\nnumero2 = int(input(\"escribe el numero con el que comparar el anterior \"))\nif numero1 == numero2:\n    print(\"son iguales\")\nelif numero1 > numero2:\n    print(f\"{numero1} es mayor que {numero2}\")\nelse:\n    print(f\"{numero2} es mayor que {numero1}\")\n# 6️⃣ Pide una nota (0 a 10) y muestra si es “Suspenso”, “Aprobado”, “Notable” o “Sobresaliente”.\n# Escribe tu código aquí 👇",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "numero2",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "numero2 = int(input(\"escribe el numero con el que comparar el anterior \"))\nif numero1 == numero2:\n    print(\"son iguales\")\nelif numero1 > numero2:\n    print(f\"{numero1} es mayor que {numero2}\")\nelse:\n    print(f\"{numero2} es mayor que {numero1}\")\n# 6️⃣ Pide una nota (0 a 10) y muestra si es “Suspenso”, “Aprobado”, “Notable” o “Sobresaliente”.\n# Escribe tu código aquí 👇\nnumero = float(input(\"escribe la nota que el alumno ha tenido: \"))",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "numero = float(input(\"escribe la nota que el alumno ha tenido: \"))\nmatch numero:\n    case _ if numero >= 9:\n        print(\"el alumno ha sacado sobresaliente\")\n    case _ if numero >= 7:\n        print(\"el alumno ha sacado notable\")\n    case _ if numero >= 5:\n        print(\"el alumno ha sacado aprobado\")\n    case _ if numero > 5:\n        print(\"el alumno ha suspendido\")",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "contador = 0\nwhile i<100:\n    i+=1\n    contador = contador + i\n    print(f\"esto es i {i}\")\n    print(f\"esto es contador {contador}\")\nprint(f\"la suma de todos los numeros es {contador}\")\n# 🔟 Pide un número y muestra su tabla de multiplicar (1 al 10).\n# Escribe tu código aquí 👇\nnumero = int(input(\"de que numero quieres que te muestre la tabla de multiplicar: \"))",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "numero = int(input(\"de que numero quieres que te muestre la tabla de multiplicar: \"))\nfor i in range(11):\n    print(f\"{numero}X{i}={numero*i}\")\n# 1️⃣1️⃣ Usa un while para contar del 10 al 0 (descendente).\n# Escribe tu código aquí 👇\nnumero=10\nwhile numero>=0:\n    print(numero)\n    numero-=1\n# 🍎 LISTAS -------------------------------------------",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "listaFrutas",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "listaFrutas = [\"manzana\",\"platano\",\"cereza\",\"higo\",\"sandia\"]\nfor fruta in listaFrutas:\n    print(fruta)\n# 1️⃣3️⃣ Agrega una fruta nueva a la lista anterior y muestra el total.\n# Escribe tu código aquí 👇\nlistaFrutas.append(\"melon\")\nprint(listaFrutas)\n# 1️⃣4️⃣ Pide al usuario una fruta y di si está en la lista o no.\n# Escribe tu código aquí 👇\npideFruta = input(\"que fruta desa buscar? \").lower()",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "pideFruta",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "pideFruta = input(\"que fruta desa buscar? \").lower()\ncontador = 0\nfor frutas in listaFrutas:\n    if pideFruta == frutas:\n        print(f\"tu fruta esta en la lista es {frutas}\")\n        contador +=1\nif contador == 0:\n    print(f\"la fruta {pideFruta} no esta en la lista\")\n# 1️⃣5️⃣ Crea una lista de números y muestra el número mayor y menor.\n# Escribe tu código aquí 👇",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "contador = 0\nfor frutas in listaFrutas:\n    if pideFruta == frutas:\n        print(f\"tu fruta esta en la lista es {frutas}\")\n        contador +=1\nif contador == 0:\n    print(f\"la fruta {pideFruta} no esta en la lista\")\n# 1️⃣5️⃣ Crea una lista de números y muestra el número mayor y menor.\n# Escribe tu código aquí 👇\nlistaNumeros = [2,5,3,4,4,8,9,1,7,8,6]",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "listaNumeros",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "listaNumeros = [2,5,3,4,4,8,9,1,7,8,6]\nnumeroMayor=0\nnumeroMenor=9\nfor numeros in listaNumeros:\n    if numeros >= numeroMayor:\n        numeroMayor = numeros\n    if numeros <=numeroMenor:\n        numeroMenor = numeros\nprint(f\"el mayor numero es {numeroMayor} y el menor es {numeroMenor}\")\n# 🔧 FUNCIONES ----------------------------------------",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "mensaje",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "mensaje = saludar(\"alex\")\nprint(mensaje)\n# 1️⃣7️⃣ Crea una función que calcule el cuadrado de un número.\n# Escribe tu código aquí 👇\ndef cuadradoNumero(numero):\n    return int(numero) * int(numero)\nresultado = cuadradoNumero(input(\"escribe un numero: \"))\nprint(resultado)\n# 1️⃣8️⃣ Crea una función que reciba dos números y devuelva su promedio.\n# Escribe tu código aquí 👇",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "resultado = cuadradoNumero(input(\"escribe un numero: \"))\nprint(resultado)\n# 1️⃣8️⃣ Crea una función que reciba dos números y devuelva su promedio.\n# Escribe tu código aquí 👇\ndef promedio(numero1, numero2):\n    return (int(numero1)+int(numero2))/2\nresultado  = promedio(input(\"escribe el primer numero \"),input(\"escribe el segundo numero \"))\nprint(\"el promedio es: \"+str(resultado))\n# 1️⃣9️⃣ Crea una función que reciba una lista de números y devuelva su suma total.\n# Escribe tu código aquí 👇",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "sumatoriaTotal",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "sumatoriaTotal = sumaTotal(listaNumeros = [2,3,5,8])\nprint(sumatoriaTotal)\n# ⚠️ TRY / EXCEPT ------------------------------------\n# 2️⃣0️⃣ Pide un número al usuario y usa try/except para evitar errores si escribe texto.\n# Escribe tu código aquí 👇\ntry:\n    numero = int(input(\"ingresa un numero: \"))\nexcept ValueError:\n    print(\"Debes introducir un numero entero\")\nelse:",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "tupla",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "tupla = (\"rojo\",\"verde\",\"azul\")\nprint(tupla)\nfor color in tupla:\n    print(color)\n# 2️⃣2️⃣ Desempaqueta una tupla con tres números en variables a, b, c y muéstralas.\n# Escribe tu código aquí 👇\ntuplaNumeros = (1,2,3)\na,b,c = tuplaNumeros\nprint(a,b,c)\n# 2️⃣3️⃣ Convierte una tupla en lista, agrega un elemento nuevo y vuelve a convertirla en tupla.",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "tuplaNumeros",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "tuplaNumeros = (1,2,3)\na,b,c = tuplaNumeros\nprint(a,b,c)\n# 2️⃣3️⃣ Convierte una tupla en lista, agrega un elemento nuevo y vuelve a convertirla en tupla.\n# Escribe tu código aquí 👇\ntuplaLista = list(tupla)\ntuplaLista.append(\"negro\")\nlistaTupla = tuple(tuplaLista)\nprint(listaTupla)\n# 🗝️ DICCIONARIOS ------------------------------------",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "a,b,c",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "a,b,c = tuplaNumeros\nprint(a,b,c)\n# 2️⃣3️⃣ Convierte una tupla en lista, agrega un elemento nuevo y vuelve a convertirla en tupla.\n# Escribe tu código aquí 👇\ntuplaLista = list(tupla)\ntuplaLista.append(\"negro\")\nlistaTupla = tuple(tuplaLista)\nprint(listaTupla)\n# 🗝️ DICCIONARIOS ------------------------------------\nprint(\"🗝️ DICCIONARIOS ------------------------------------\")",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "tuplaLista",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "tuplaLista = list(tupla)\ntuplaLista.append(\"negro\")\nlistaTupla = tuple(tuplaLista)\nprint(listaTupla)\n# 🗝️ DICCIONARIOS ------------------------------------\nprint(\"🗝️ DICCIONARIOS ------------------------------------\")\n# 2️⃣4️⃣ Crea un diccionario con datos de una persona (nombre, edad, ciudad) y muéstralo.\n# Escribe tu código aquí 👇\ndiccionarioPersona = {\"nombre\":\"alex\",\"edad\":\"28\",\"ciudad\":\"madrid\"}\nprint(diccionarioPersona)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "listaTupla",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "listaTupla = tuple(tuplaLista)\nprint(listaTupla)\n# 🗝️ DICCIONARIOS ------------------------------------\nprint(\"🗝️ DICCIONARIOS ------------------------------------\")\n# 2️⃣4️⃣ Crea un diccionario con datos de una persona (nombre, edad, ciudad) y muéstralo.\n# Escribe tu código aquí 👇\ndiccionarioPersona = {\"nombre\":\"alex\",\"edad\":\"28\",\"ciudad\":\"madrid\"}\nprint(diccionarioPersona)\n# 2️⃣5️⃣ Muestra solo las claves del diccionario anterior.\n# Escribe tu código aquí 👇",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "diccionarioPersona",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "diccionarioPersona = {\"nombre\":\"alex\",\"edad\":\"28\",\"ciudad\":\"madrid\"}\nprint(diccionarioPersona)\n# 2️⃣5️⃣ Muestra solo las claves del diccionario anterior.\n# Escribe tu código aquí 👇\nprint(diccionarioPersona.keys())\n# 2️⃣6️⃣ Muestra solo los valores del diccionario anterior.\n# Escribe tu código aquí 👇\nprint(diccionarioPersona.values())\n# 2️⃣7️⃣ Agrega una nueva clave “profesión” al diccionario y muéstralo.\n# Escribe tu código aquí 👇",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "diccionarioPersona[\"profesion\"]",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "peekOfCode": "diccionarioPersona[\"profesion\"] = \"programador\"\nprint(diccionarioPersona.keys())\n# 2️⃣8️⃣ Recorre el diccionario mostrando “clave: valor” en cada línea.\n# Escribe tu código aquí 👇\nprint(diccionarioPersona.items())\nfor clave, valor in diccionarioPersona.items():\n    print(clave,valor)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_practica",
+        "documentation": {}
+    },
+    {
+        "label": "tupla",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "tupla = (\"rojo\", \"verde\", \"azul\")\nfor i, color in enumerate(tupla):\n    print(i, color)\n# ==================================================\n# 8️⃣ DICCIONARIOS\n# ==================================================\n# Pares clave:valor\n# Crear: dic = {\"nombre\": \"Ana\", \"edad\": 20}\n# Acceder: dic[\"nombre\"]\n# Agregar/Modificar: dic[\"clave\"] = valor",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "edad = int(input(\"Escribe tu edad: \"))\nif edad < 0:\n    raise ValueError(\"La edad no puede ser negativa\")  \n# ==================================================\n# 1️⃣1️⃣ TIPOS DE ERRORES COMUNES EN PYTHON\n# ==================================================\n# | Error               | Descripción                                      | Ejemplo                             |\n# |--------------------|-------------------------------------------------|-------------------------------------|\n# | SyntaxError         | Código con sintaxis incorrecta                  | print(\"Hola mundo\"                  |\n# | NameError           | Variable no definida                            | print(x)                             |",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "colores",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "colores = [\"rojo\", \"verde\", \"azul\"]\nfor color in colores:\n    print(color)\n# b) Recorriendo por índice\nfor i in range(len(colores)):\n    print(i, colores[i])\n# c) Recorriendo índice + valor\nfor i, color in enumerate(colores):\n    print(i, color)\n# d) Recorriendo varios iterables a la vez",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "nombres",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "nombres = [\"Ana\", \"Luis\", \"Marta\"]\nedades = [20, 25, 22]\nfor nombre, edad in zip(nombres, edades):\n    print(nombre, edad)\n# e) Recorriendo diccionarios\ndic = {\"nombre\": \"Ana\", \"edad\": 20}\nfor clave, valor in dic.items():\n    print(clave, valor)\nfor clave in dic.keys():\n    print(clave)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "edades",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "edades = [20, 25, 22]\nfor nombre, edad in zip(nombres, edades):\n    print(nombre, edad)\n# e) Recorriendo diccionarios\ndic = {\"nombre\": \"Ana\", \"edad\": 20}\nfor clave, valor in dic.items():\n    print(clave, valor)\nfor clave in dic.keys():\n    print(clave)\nfor valor in dic.values():",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "dic",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "dic = {\"nombre\": \"Ana\", \"edad\": 20}\nfor clave, valor in dic.items():\n    print(clave, valor)\nfor clave in dic.keys():\n    print(clave)\nfor valor in dic.values():\n    print(valor)\n# f) Recorriendo al revés\nfor color in reversed(colores):\n    print(color)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "numeros = [3, 1, 4, 2]\nfor n in sorted(numeros):\n    print(n)\n# h) Bucles con control de flujo\nfor i in range(10):\n    if i == 3:\n        continue  # Salta esta iteración\n    if i == 7:\n        break     # Sale del bucle\n    print(i)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "contador = 0\nwhile contador < 5:\n    print(\"Contador:\", contador)\n    contador += 1\n# ==================================================\n# 1️⃣5️⃣ DIFERENCIAS ENTRE LISTAS, TUPLAS Y DICCIONARIOS\n# ==================================================\n# | Tipo          | Mutable | Ordenado | Duplicados | Acceso por | Sintaxis        | Ejemplo                          | Uso típico |\n# |----------------|----------|-----------|-------------|-------------|----------------|-----------------------------------|-------------|\n# | **Lista**       | ✅ Sí    | ✅ Sí     | ✅ Sí       | Índice      | [ ]            | [1, 2, 3]                        | Colecciones de datos modificables |",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "sumar",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "peekOfCode": "def sumar(valor1,valor2):\n    return valor1+valor2\ndef restar(valor1,valor2):\n    return valor1-valor2\ndef multiplicar(valor1,valor2):\n    return valor1*valor2\ndef dividir(dividendo,divisor):\n    return ((dividendo/divisor),(dividendo%divisor))\n#Main\neleccion=0",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "documentation": {}
+    },
+    {
+        "label": "restar",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "peekOfCode": "def restar(valor1,valor2):\n    return valor1-valor2\ndef multiplicar(valor1,valor2):\n    return valor1*valor2\ndef dividir(dividendo,divisor):\n    return ((dividendo/divisor),(dividendo%divisor))\n#Main\neleccion=0\nwhile eleccion != 5 :\n    try:",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicar",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "peekOfCode": "def multiplicar(valor1,valor2):\n    return valor1*valor2\ndef dividir(dividendo,divisor):\n    return ((dividendo/divisor),(dividendo%divisor))\n#Main\neleccion=0\nwhile eleccion != 5 :\n    try:\n        print(\"Elige:\\n1. sumar\\n2. restar\\n3. multiplicar\\n4. dividir\\n5. salir\")\n        eleccion = int(input(\"elige una opcion: \"))",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "peekOfCode": "def dividir(dividendo,divisor):\n    return ((dividendo/divisor),(dividendo%divisor))\n#Main\neleccion=0\nwhile eleccion != 5 :\n    try:\n        print(\"Elige:\\n1. sumar\\n2. restar\\n3. multiplicar\\n4. dividir\\n5. salir\")\n        eleccion = int(input(\"elige una opcion: \"))\n        match eleccion:\n            case 1:",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
+        "documentation": {}
+    },
+    {
+        "label": "crear_lista_compra",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "peekOfCode": "def crear_lista_compra():\n    listaCompra = []\n    return listaCompra\n#funcion: agrega un solo producto a la lista creada \ndef agregar_un_producto(listaCompra):\n    print()\n    valor = input(\"escribe el producto que deseas agregar a la lista de la compra: \").lower() #pide un valor para agregar a la lista y lo convierte a minusculas\n    #comprueba si ese valor esta ya en la lista\n    if valor == \"\":\n        print(\"no has escrito nada\")",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "documentation": {}
+    },
+    {
+        "label": "agregar_un_producto",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "peekOfCode": "def agregar_un_producto(listaCompra):\n    print()\n    valor = input(\"escribe el producto que deseas agregar a la lista de la compra: \").lower() #pide un valor para agregar a la lista y lo convierte a minusculas\n    #comprueba si ese valor esta ya en la lista\n    if valor == \"\":\n        print(\"no has escrito nada\")\n    else:\n        if valor in listaCompra:\n            print(\"ese producto ya esta en la lista de la compra\")\n        else:",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "documentation": {}
+    },
+    {
+        "label": "mostrar_productos",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "peekOfCode": "def mostrar_productos(listaCompra):\n    print()\n    if not listaCompra:\n        print(\"la lista esta vacia\")\n    else:\n        print(\"la lista de la compra contiene:\")\n        for productos in listaCompra:\n                print(productos)\n    print()            \n#funcion: eliminar un solo producto de la lista creada",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar_un_producto",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "peekOfCode": "def eliminar_un_producto(listaCompra):\n    print()\n    valor = input(\"escribe el elemento que desea eliminar: \").lower()#pide un valor para eliminar de la lista y lo convierte a minusculas\n    #comprueba si ese valor existe en la lista y de ser asi lo elimina\n    if valor in listaCompra:\n        print(\"el valor eliminado es\", valor)\n        listaCompra.remove(valor)\n    else:\n        print(\"el valor no se ha podido eliminar por que esta mal escrito o no esta en la lista\")\n    print()",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "peekOfCode": "def main():\n    #crea un diccionario con los metodos a ejecutar y les asigna un indice para poder elegirlos\n    opciones = {\n        1: agregar_un_producto,\n        2: mostrar_productos,\n        3: eliminar_un_producto\n    }\n    eleccion = 0\n    listaCompra = crear_lista_compra()\n    #bucle: mientras la eleccion no sea 4 (salir) repitete",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_entero",
+        "kind": 2,
+        "importPath": "ProyectosCortos.Contador",
+        "description": "ProyectosCortos.Contador",
+        "peekOfCode": "def obtener_entero(mensaje):\n    \"\"\"Solicita un número entero y maneja errores de entrada.\"\"\"\n    while True:\n        try:\n            return int(input(mensaje))\n        except ValueError:\n            print(\"❌ Entrada inválida. Debes ingresar un número entero.\")\ndef seleccionar_categoria():\n    \"\"\"Muestra las categorías y permite seleccionar una.\"\"\"\n    print(\"\\n📂 Categorías disponibles:\")",
+        "detail": "ProyectosCortos.Contador",
+        "documentation": {}
+    },
+    {
+        "label": "seleccionar_categoria",
+        "kind": 2,
+        "importPath": "ProyectosCortos.Contador",
+        "description": "ProyectosCortos.Contador",
+        "peekOfCode": "def seleccionar_categoria():\n    \"\"\"Muestra las categorías y permite seleccionar una.\"\"\"\n    print(\"\\n📂 Categorías disponibles:\")\n    for i, cat in enumerate(t1.keys(), 1):\n        print(f\"{i}. {cat}\")\n    while True:\n        seleccion = obtener_entero(\"\\nElige el número de la categoría: \") - 1\n        if 0 <= seleccion < len(t1):\n            return list(t1.keys())[seleccion]\n        print(\"❌ Opción inválida. Inténtalo de nuevo.\")",
+        "detail": "ProyectosCortos.Contador",
+        "documentation": {}
+    },
+    {
+        "label": "mostrar_datos",
+        "kind": 2,
+        "importPath": "ProyectosCortos.Contador",
+        "description": "ProyectosCortos.Contador",
+        "peekOfCode": "def mostrar_datos():\n    \"\"\"Muestra el diccionario estructurado de forma más legible manteniendo el orden.\"\"\"\n    print(\"\\n📊 **Datos actuales:**\")\n    datos_mostrados = False\n    for categoria, tecnologias in t1.items():\n        if tecnologias:  # Solo muestra categorías con datos\n            print(f\"\\n🔹 {categoria}:\")\n            for tecnologia, cantidad in tecnologias.items():\n                print(f\"   - {tecnologia.capitalize()}: {cantidad}\")\n            datos_mostrados = True",
+        "detail": "ProyectosCortos.Contador",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar_tecnologia",
+        "kind": 2,
+        "importPath": "ProyectosCortos.Contador",
+        "description": "ProyectosCortos.Contador",
+        "peekOfCode": "def eliminar_tecnologia():\n    \"\"\"Permite eliminar una tecnología de una categoría específica.\"\"\"\n    if all(not tecnologias for tecnologias in t1.values()):\n        print(\"❌ No hay datos para eliminar.\")\n        return\n    print(\"\\n📂 **Categorías disponibles:**\")\n    categorias_disponibles = [cat for cat in t1.keys() if t1[cat]]  # Filtra solo las que tienen datos\n    for i, cat in enumerate(categorias_disponibles, 1):\n        print(f\"{i}. {cat}\")\n    cat_index = obtener_entero(\"\\nElige el número de la categoría: \") - 1",
+        "detail": "ProyectosCortos.Contador",
+        "documentation": {}
+    },
+    {
+        "label": "t1",
+        "kind": 5,
+        "importPath": "ProyectosCortos.Contador",
+        "description": "ProyectosCortos.Contador",
+        "peekOfCode": "t1 = OrderedDict({categoria: {} for categoria in [\n    \"Control de Versiones\", \"CI/CD\", \"Cloud Computing\", \"Lenguajes de Programación\",\n    \"Desarrollo de Interfaces\", \"APIs y Servicios Web\", \"Contenedores\",\n    \"Bases de Datos\", \"Visualización de Datos\", \"Seguridad\", \"Testing\", \"Desarrollo Móvil\",\"Big data y procesamiento de datos\"\n]})\n# Diccionario para guardar a qué categoría pertenece cada tecnología\ntech_to_category = {}\ndef obtener_entero(mensaje):\n    \"\"\"Solicita un número entero y maneja errores de entrada.\"\"\"\n    while True:",
+        "detail": "ProyectosCortos.Contador",
+        "documentation": {}
+    },
+    {
+        "label": "tech_to_category",
+        "kind": 5,
+        "importPath": "ProyectosCortos.Contador",
+        "description": "ProyectosCortos.Contador",
+        "peekOfCode": "tech_to_category = {}\ndef obtener_entero(mensaje):\n    \"\"\"Solicita un número entero y maneja errores de entrada.\"\"\"\n    while True:\n        try:\n            return int(input(mensaje))\n        except ValueError:\n            print(\"❌ Entrada inválida. Debes ingresar un número entero.\")\ndef seleccionar_categoria():\n    \"\"\"Muestra las categorías y permite seleccionar una.\"\"\"",
+        "detail": "ProyectosCortos.Contador",
+        "documentation": {}
+    }
+]
