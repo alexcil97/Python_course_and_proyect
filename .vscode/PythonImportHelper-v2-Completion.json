@@ -1,5 +1,38 @@
 [
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
         "label": "OrderedDict",
         "importPath": "collections",
         "description": "collections",
@@ -410,6 +443,33 @@
         "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
         "peekOfCode": "def main():\n    #crea un diccionario con los metodos a ejecutar y les asigna un indice para poder elegirlos\n    opciones = {\n        1: agregar_un_producto,\n        2: mostrar_productos,\n        3: eliminar_un_producto\n    }\n    eleccion = 0\n    listaCompra = crear_lista_compra()\n    #bucle: mientras la eleccion no sea 4 (salir) repitete",
         "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto2_Lista_de_la_compra",
+        "documentation": {}
+    },
+    {
+        "label": "generar_numero_aleatorio",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "peekOfCode": "def generar_numero_aleatorio():\n    return random.randint(1, 100)\n# Función: muestra pista con colores y estilos\ndef mostrar_pista(intento, numero_resultado):\n    if numero_resultado > intento:\n        print(Fore.YELLOW + f\"\\n🔼 El número es mayor que {intento}\")\n        return False\n    elif numero_resultado < intento:\n        print(Fore.CYAN + f\"\\n🔽 El número es menor que {intento}\")\n        return False",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "documentation": {}
+    },
+    {
+        "label": "mostrar_pista",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "peekOfCode": "def mostrar_pista(intento, numero_resultado):\n    if numero_resultado > intento:\n        print(Fore.YELLOW + f\"\\n🔼 El número es mayor que {intento}\")\n        return False\n    elif numero_resultado < intento:\n        print(Fore.CYAN + f\"\\n🔽 El número es menor que {intento}\")\n        return False\n    else:\n        print(Fore.GREEN + Style.BRIGHT + f\"\\n🎉 ¡Felicidades! Has acertado. El número era {numero_resultado}\")\n        return True",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "peekOfCode": "def main():\n    numero_resultado = generar_numero_aleatorio()\n    intento = 0\n    contador = 0\n    print(Fore.MAGENTA + Style.BRIGHT + \"=\"*40)\n    print(Fore.MAGENTA + Style.BRIGHT + \"      ¡Bienvenido al Juego de Adivinar!\")\n    print(Fore.MAGENTA + \"         Adivina un número del 1 al 100\")\n    print(Fore.MAGENTA + \"=\"*40 + \"\\n\")\n    while True:\n        try:",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
         "documentation": {}
     },
     {
