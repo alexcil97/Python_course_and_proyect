@@ -9,6 +9,30 @@
         "documentation": {}
     },
     {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
         "label": "init",
         "importPath": "colorama",
         "description": "colorama",
@@ -365,6 +389,42 @@
         "documentation": {}
     },
     {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "numero = random.randint(1, 100)\n# 2️⃣ Importar solo funciones o clases específicas del módulo\nfrom random import randint, choice\n# Ahora podemos usar randint y choice directamente:\nnumero = randint(1, 100)\nelemento = choice([\"rojo\", \"verde\", \"azul\"])\n# 3️⃣ Importar y renombrar el módulo\nimport random as rnd\n# Ahora se usa el alias:\nnumero = rnd.randint(1, 100)",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "numero = randint(1, 100)\nelemento = choice([\"rojo\", \"verde\", \"azul\"])\n# 3️⃣ Importar y renombrar el módulo\nimport random as rnd\n# Ahora se usa el alias:\nnumero = rnd.randint(1, 100)\n# 4️⃣ Importar todo del módulo (no recomendado)\nfrom random import *\n# Esto trae todas las funciones al espacio de nombres, pero puede causar conflictos si hay nombres iguales\n# ✅ Buenas prácticas:",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "elemento",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "elemento = choice([\"rojo\", \"verde\", \"azul\"])\n# 3️⃣ Importar y renombrar el módulo\nimport random as rnd\n# Ahora se usa el alias:\nnumero = rnd.randint(1, 100)\n# 4️⃣ Importar todo del módulo (no recomendado)\nfrom random import *\n# Esto trae todas las funciones al espacio de nombres, pero puede causar conflictos si hay nombres iguales\n# ✅ Buenas prácticas:\n# - Si usas muchas funciones de un módulo, mejor 'import modulo' y usar 'modulo.funcion()'.",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "peekOfCode": "numero = rnd.randint(1, 100)\n# 4️⃣ Importar todo del módulo (no recomendado)\nfrom random import *\n# Esto trae todas las funciones al espacio de nombres, pero puede causar conflictos si hay nombres iguales\n# ✅ Buenas prácticas:\n# - Si usas muchas funciones de un módulo, mejor 'import modulo' y usar 'modulo.funcion()'.\n# - Si solo usas una o dos funciones, 'from modulo import funcion' es más limpio.\n# - Evita 'from modulo import *', puede causar errores difíciles de depurar.",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.fase1_Teoria",
+        "documentation": {}
+    },
+    {
         "label": "sumar",
         "kind": 2,
         "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto1_Calculadora_simple",
@@ -470,6 +530,60 @@
         "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
         "peekOfCode": "def main():\n    numero_resultado = generar_numero_aleatorio()\n    intento = 0\n    contador = 0\n    print(Fore.MAGENTA + Style.BRIGHT + \"=\"*40)\n    print(Fore.MAGENTA + Style.BRIGHT + \"      ¡Bienvenido al Juego de Adivinar!\")\n    print(Fore.MAGENTA + \"         Adivina un número del 1 al 100\")\n    print(Fore.MAGENTA + \"=\"*40 + \"\\n\")\n    while True:\n        try:",
         "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto3_Juego_De_Adivinar_El_Numero",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_maximo_filas_columnas",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "peekOfCode": "def obtener_maximo_filas_columnas(tablero):\n    maximo_filas = [len(tablero)]\n    maximo_columnas = [len(fila) for fila in tablero]\n    return [maximo_filas[0]-1,maximo_columnas[0]-1]\ndef seleccionar_casilla(eleccion_fila,eleccion_columna,tablero,filas_y_columnas,turno):\n    if turno % 2 == 1:\n        eleccion_fila = int(input(f\"indica una fila comprendida entre 0 y {filas_y_columnas[0]}: \"))\n        eleccion_columna = int(input(f\"indica una columna comprendida entre 0 y {filas_y_columnas[1]}: \"))\n        while (eleccion_fila > filas_y_columnas[0] or eleccion_columna > filas_y_columnas[1]) or (tablero[eleccion_fila][eleccion_columna]==\"x\" or tablero[eleccion_fila][eleccion_columna]==\"o\"):\n            print(\"casilla ya dibujada o numero de fila/columna invalido\")",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "documentation": {}
+    },
+    {
+        "label": "seleccionar_casilla",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "peekOfCode": "def seleccionar_casilla(eleccion_fila,eleccion_columna,tablero,filas_y_columnas,turno):\n    if turno % 2 == 1:\n        eleccion_fila = int(input(f\"indica una fila comprendida entre 0 y {filas_y_columnas[0]}: \"))\n        eleccion_columna = int(input(f\"indica una columna comprendida entre 0 y {filas_y_columnas[1]}: \"))\n        while (eleccion_fila > filas_y_columnas[0] or eleccion_columna > filas_y_columnas[1]) or (tablero[eleccion_fila][eleccion_columna]==\"x\" or tablero[eleccion_fila][eleccion_columna]==\"o\"):\n            print(\"casilla ya dibujada o numero de fila/columna invalido\")\n            eleccion_fila = int(input(f\"indica una fila comprendida entre 0 y {filas_y_columnas[0]}: \"))\n            eleccion_columna = int(input(f\"indica una columna comprendida entre 0 y {filas_y_columnas[1]}: \"))\n    else:\n        while tablero[eleccion_fila][eleccion_columna]==\"x\" or tablero[eleccion_fila][eleccion_columna]==\"o\":",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "documentation": {}
+    },
+    {
+        "label": "imprimir_valor",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "peekOfCode": "def imprimir_valor(tablero):\n    for valores in tablero:\n        print(valores)\ndef turnometro(turno):\n    print(\"estamos en el turno:\",turno)\n    if turno % 2 == 0:\n        print(\"Turno de la CPU: \")\n    else:\n        print(\"Turno del USUARIO: \")\n    turno+=1",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "documentation": {}
+    },
+    {
+        "label": "turnometro",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "peekOfCode": "def turnometro(turno):\n    print(\"estamos en el turno:\",turno)\n    if turno % 2 == 0:\n        print(\"Turno de la CPU: \")\n    else:\n        print(\"Turno del USUARIO: \")\n    turno+=1\n    return turno\ndef condicion_finalizar_partida(turno):\n    if turno == 10:",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "documentation": {}
+    },
+    {
+        "label": "condicion_finalizar_partida",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "peekOfCode": "def condicion_finalizar_partida(turno):\n    if turno == 10:\n        print(\"se acabo la partida\")\n        return True\n    return False\ndef main():\n    # nombre_jugador1 = input(\"Por favor indique el nombre del jugador : \")\n    tablero = [\n        [\" \",\" \",\" \"],\n        [\" \",\" \",\" \"],",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "description": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
+        "peekOfCode": "def main():\n    # nombre_jugador1 = input(\"Por favor indique el nombre del jugador : \")\n    tablero = [\n        [\" \",\" \",\" \"],\n        [\" \",\" \",\" \"],\n        [\" \",\" \",\" \"]\n    ]\n    turno = 1\n    eleccion_fila=0\n    eleccion_columna=0",
+        "detail": "Fase_1_Fundamentos_de_programación_y_web.proyecto4_Piedra_Papel_Tijera",
         "documentation": {}
     },
     {

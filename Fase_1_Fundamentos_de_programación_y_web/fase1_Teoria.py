@@ -262,14 +262,45 @@ while contador < 5:
 # - Usa **listas** cuando necesites una colección dinámica.
 # - Usa **tuplas** cuando los datos deban ser inmutables o fijos.
 # - Usa **diccionarios** cuando necesites pares clave-valor.
-""" 
-| Tipo        | Ejemplos | Mutable | ¿Se modifica por referencia? |
-| ----------- | -------- | ------- | ---------------------------- |
-| Lista       | `[]`     | Sí      | ✔ Sí                         |
-| Diccionario | `{}`     | Sí      | ✔ Sí                         |
-| Conjunto    | `set()`  | Sí      | ✔ Sí                         |
-| Entero      | `5`      | No      | ❌ No                         |
-| Float       | `3.14`   | No      | ❌ No                         |
-| String      | `"hola"` | No      | ❌ No                         |
-| Tupla       | `(1,2)`  | No      | ❌ No                         |
- """
+
+# | Tipo        | Ejemplos | Mutable | ¿Se modifica por referencia? |
+# | ----------- | -------- | ------- | ---------------------------- |
+# | Lista       | `[]`     | Sí      | ✔ Sí                         |
+# | Diccionario | `{}`     | Sí      | ✔ Sí                         |
+# | Conjunto    | `set()`  | Sí      | ✔ Sí                         |
+# | Entero      | `5`      | No      | ❌ No                         |
+# | Float       | `3.14`   | No      | ❌ No                         |
+# | String      | `"hola"` | No      | ❌ No                         |
+# | Tupla       | `(1,2)`  | No      | ❌ No                         |
+
+
+# ==================================================
+# 1️⃣6️⃣ IMPORTACIONES
+# ==================================================
+# En Python podemos usar módulos para aprovechar código ya escrito.
+# Existen varias formas de importar:
+
+# 1️⃣ Importar todo el módulo
+import random
+# Para usar funciones del módulo, se antepone el nombre del módulo:
+numero = random.randint(1, 100)
+
+# 2️⃣ Importar solo funciones o clases específicas del módulo
+from random import randint, choice
+# Ahora podemos usar randint y choice directamente:
+numero = randint(1, 100)
+elemento = choice(["rojo", "verde", "azul"])
+
+# 3️⃣ Importar y renombrar el módulo
+import random as rnd
+# Ahora se usa el alias:
+numero = rnd.randint(1, 100)
+
+# 4️⃣ Importar todo del módulo (no recomendado)
+from random import *
+# Esto trae todas las funciones al espacio de nombres, pero puede causar conflictos si hay nombres iguales
+
+# ✅ Buenas prácticas:
+# - Si usas muchas funciones de un módulo, mejor 'import modulo' y usar 'modulo.funcion()'.
+# - Si solo usas una o dos funciones, 'from modulo import funcion' es más limpio.
+# - Evita 'from modulo import *', puede causar errores difíciles de depurar.
